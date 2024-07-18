@@ -1,0 +1,225 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #e7e7e7;
+}
+
+header,
+section h2,
+section h3,
+form button {
+        font-family: "Tektur", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-style: normal;
+}
+
+section h2 {
+    font-size: 32px;
+}
+
+body, input, textarea {
+    font-family: "Roboto", sans-serif;
+}
+
+header {
+    padding: 20px 0px;
+    background-color: #ef0107;
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+header img {
+    height: 50px;
+}
+
+header .menu {
+    margin-right: 200px;
+    margin-left: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header ul {
+    margin: 0;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+header nav li a {
+    color: white;
+    text-decoration: none;
+}
+
+.container{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+section .container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+section {
+    padding: 100px 0;
+    margin-bottom: -85px;
+}
+
+section h2 {
+    margin-bottom: 16px;
+}
+
+section {
+    color: black;
+}
+
+#about .container {
+    align-items: center;
+}
+
+section p {
+    margin-bottom: 8px;
+}
+
+.main-banner {
+    margin-right: 32px;
+    height: 350px;
+}
+
+#stadium .container {
+    margin-bottom: 30px;
+}
+
+#stadium h2 {
+    text-align: center;
+}
+
+#stadium h3 {
+    background-color: #9c824a;
+    border-radius: 10px;
+    color: white;
+    padding: 6px;
+}
+
+.arsenal-stadium {
+    margin-right: 15px;
+    height: 200px;
+    border-radius: 15px;
+}
+
+.emirates-stadium {
+    margin-left: 15px;
+    height: 200px;
+    border-radius: 15px;
+}
+
+#titles .container {
+    text-align: center;
+    justify-content: center;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table th {
+    border: 2px solid #cfcfcf;
+    padding: 20px;
+}
+
+table td {
+    background-color: #cfcfcf;
+    border: 2px solid #e7e7e7;
+    padding: 18px;
+    width: 400px;
+}
+
+#shields {
+    text-align: center;
+}
+
+.logos {
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    margin: 25px;
+}
+
+.logos figure figcaption {
+    margin-top: 10px;
+}
+
+.social-links img {
+    height: 24px;
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 8px;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+#member .container {
+    text-align: center;
+    display: block;
+}
+
+
+#member .container form {
+    margin-left: 38%;
+    margin-bottom: 30px;
+    }
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+section h3 {
+    margin-bottom: 16px;
+}
+
+form button {
+    background-color: #ef0107;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #063672;
+}
+
+footer {
+    background-color: #063672;
+    color: white;
+    padding: 35px 0;
+    text-align: center;
+}
